@@ -25,24 +25,16 @@ import { Util } from '../../util.service'
                   <thead>
                     <tr>
                       <th>Product Name</th>
-                      <th>Product Price</th>
-                      <th>Actions</th>
+                      <th>Price</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr *ngFor="let brandProduct of brandProducts">
                       <td>{{brandProduct.Name}}</td>
                       <td class="text-right">{{brandProduct.Price}}</td>
-                      <td class="text-center">
-                        <a class="btn btn-sm btn-secondary" routerLink="/product/{{brandProduct.Id}}" title="View"><i class="fa fa-eye"></i></a>
-                        <a class="btn btn-sm btn-primary" routerLink="/product/edit/{{brandProduct.Id}}" title="Edit"><i class="fa fa-pencil"></i></a>
-                        <a class="btn btn-sm btn-danger" routerLink="/product/delete/{{brandProduct.Id}}" title="Delete"><i class="fa fa-times"></i></a>
-                      </td>
                     </tr>
                   </tbody>
                 </table>
-                <a class="btn btn-sm btn-primary" (click)="util.goto($event)" href="/product/create?product_brand_id={{brand.Id}}">Add</a>
-                <hr />
               </div>
               <div class="col-12">
                 <a class="btn btn-sm btn-secondary" (click)="util.goBack('/brand', $event)" routerLink="/brand">Back</a>

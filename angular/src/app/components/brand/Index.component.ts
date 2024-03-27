@@ -50,6 +50,7 @@ import { Subscription } from 'rxjs'
                   <td>{{brand.Name}}</td>
                   <td class="text-center">
                     <a class="btn btn-sm btn-secondary" routerLink="/brand/{{brand.Id}}" title="View"><i class="fa fa-eye"></i></a>
+                    <a class="btn btn-sm btn-primary" routerLink="/brand/edit/{{brand.Id}}" title="Edit"><i class="fa fa-pencil"></i></a>
                     <a class="btn btn-sm btn-danger" routerLink="/brand/delete/{{brand.Id}}" title="Delete"><i class="fa fa-times"></i></a>
                   </td>
                 </tr>
