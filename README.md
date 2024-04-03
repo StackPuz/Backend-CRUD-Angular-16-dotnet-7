@@ -35,7 +35,7 @@ Checkout the live demo at https://demo-spa.stackpuz.com
 ## Run project
 
 1. Run Angular project. `npm start`
-2. Run .NET project. `dotnet run --urls="http://localhost:5000`
+2. Run .NET project. `dotnet run --urls="http://localhost:5000"`
 3. Navigate to `http://localhost:4200`
 4. Login with user `admin` password `1234`
 
