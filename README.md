@@ -22,7 +22,7 @@ Checkout the live demo at https://demo-spa.stackpuz.com
 
 ## Installation
 1. Clone this repository. `git clone https://github.com/stackpuz/Boilerplate-CRUD-Angular-16-dotnet-7.git .`
-2. Change directory to Angular project. `cd Boilerplate-CRUD-Angular-16-dotnet-7/angular`
+2. Change directory to Angular project. `cd angular`
 3. Install the Angular dependencies. `npm install`
 4. Create a new database and run [/database.sql](/database.sql) script to create tables and import data.
 5. Edit the database configuration in [/dotnet_api/appsettings.js](/dotnet_api/appsettings.json) file.
