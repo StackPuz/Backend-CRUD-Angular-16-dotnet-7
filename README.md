@@ -1,5 +1,5 @@
-# Backend-CRUD-Angular-16-dotnet-7
-Boilerplate Backend CRUD Web App created with Angular 16 + .NET 7 by [StackPuz](https://stackpuz.com).
+# Boilerplate-CRUD-Angular-16-dotnet-7
+Boilerplate Boilerplate CRUD Web App created with Angular 16 + .NET 7 by [StackPuz](https://stackpuz.com).
 
 ## Demo
 Checkout the live demo at https://demo-spa.stackpuz.com
@@ -21,8 +21,8 @@ Checkout the live demo at https://demo-spa.stackpuz.com
 - MySQL 5.7
 
 ## Installation
-1. Clone this repository. `git clone https://github.com/stackpuz/Backend-CRUD-Angular-16-dotnet-7.git .`
-2. Change directory to Angular project. `cd Backend-CRUD-Angular-16-dotnet-7/angular`
+1. Clone this repository. `git clone https://github.com/stackpuz/Boilerplate-CRUD-Angular-16-dotnet-7.git .`
+2. Change directory to Angular project. `cd Boilerplate-CRUD-Angular-16-dotnet-7/angular`
 3. Install the Angular dependencies. `npm install`
 4. Create a new database and run [/database.sql](/database.sql) script to create tables and import data.
 5. Edit the database configuration in [/dotnet_api/appsettings.js](/dotnet_api/appsettings.json) file.
